@@ -11,7 +11,7 @@ subData$Date_Time <- strptime(subData$Date_Time,"%d/%m/%Y %H:%M:%S")
 subData$Sub_metering_1 <- as.numeric(subData$Sub_metering_1)
 subData$Sub_metering_2 <- as.numeric(subData$Sub_metering_2)
 
-#png("Plot3.png",width=480,height = 480)
+png("Plot4.png",width=480,height = 480)
 
 par(mfrow=c(2,2))
 
